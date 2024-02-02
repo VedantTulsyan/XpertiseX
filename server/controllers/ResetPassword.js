@@ -33,7 +33,7 @@ exports.resetPasswordToken = async (req, res) => {
         //link generation...
         //create url
         // const url = `http://localhost:3000/update-password/${token}`;
-        const url = `https://https://xpertisex.vercel.app/update-password/${token}`;
+        const url = `https://xpertisex.vercel.app/update-password/${token}`;
 
         //sending... mail
         await mailSender(email, 
